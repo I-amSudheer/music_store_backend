@@ -12,7 +12,7 @@ import com.razorpay.RazorpayClient;
 
 @RestController
 @RequestMapping("/payment") 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://music-store-frontend.vercel.app")
 public class PaymentController {
 
     @Value("${razorpay.key.id}")
