@@ -29,7 +29,7 @@ public class PaymentController {
 
         JSONObject object = new JSONObject();
 
-        object.put("amount", 1000); // 10 rupees
+        object.put("amount", 100); // 10 rupees
         object.put("currency", "INR");
         object.put("receipt", "txn_123456");
 
